@@ -1,0 +1,63 @@
+use hi-res backbone
+use cuda
+use the multi-scale trick ...
+Setting Arguments.. :  Namespace(batch_size=32, cos=False, cuda=True, dataset='custom', debug=False, eval_epoch=1, gamma=0.1, high_resolution=True, lr=0.0001, momentum=0.9, multi_scale=True, no_warm_up=False, num_workers=3, resume=None, s=0.007, save_folder='weights/', sr=True, start_epoch=0, tfboard=False, tune='out/pruned_custom_percent_80.pth', tune_epochs=1, version='slim_yolo_v2', weight_decay=0.0005, wp_epoch=6)
+----------------------------------------------------------
+Loading the dataset...
+Training model on: ['train']
+The dataset size: 2280
+----------------------------------------------------------
+Loading the pretrained model ...
+Loading the hi-res darknet_tiny-448 ...
+Let us train slim_yolo_v2 on the custom dataset ......
+2022-04-25 03:15:35.024916
+[Epoch 1/1][Iter 0/71][lr 0.000000][Loss: obj 2.35 || cls 2.47 || bbox 5.84 || total 10.66 || size 640 || time: 5.99]
+[Epoch 1/1][Iter 2/71][lr 0.000000][Loss: obj 1.15 || cls 1.98 || bbox 5.65 || total 8.78 || size 352 || time: 0.94]
+[Epoch 1/1][Iter 4/71][lr 0.000000][Loss: obj 1.76 || cls 1.73 || bbox 4.05 || total 7.53 || size 480 || time: 1.17]
+[Epoch 1/1][Iter 6/71][lr 0.000000][Loss: obj 1.41 || cls 1.67 || bbox 4.00 || total 7.09 || size 352 || time: 0.21]
+[Epoch 1/1][Iter 8/71][lr 0.000000][Loss: obj 1.85 || cls 1.68 || bbox 3.86 || total 7.39 || size 576 || time: 1.68]
+[Epoch 1/1][Iter 10/71][lr 0.000000][Loss: obj 1.54 || cls 1.51 || bbox 4.67 || total 7.72 || size 512 || time: 1.56]
+[Epoch 1/1][Iter 12/71][lr 0.000000][Loss: obj 1.15 || cls 1.86 || bbox 4.32 || total 7.33 || size 320 || time: 0.74]
+[Epoch 1/1][Iter 14/71][lr 0.000000][Loss: obj 1.54 || cls 1.75 || bbox 4.65 || total 7.94 || size 384 || time: 0.81]
+[Epoch 1/1][Iter 16/71][lr 0.000000][Loss: obj 1.25 || cls 2.20 || bbox 5.06 || total 8.51 || size 352 || time: 0.22]
+[Epoch 1/1][Iter 18/71][lr 0.000000][Loss: obj 1.66 || cls 1.90 || bbox 4.23 || total 7.78 || size 512 || time: 0.93]
+[Epoch 1/1][Iter 20/71][lr 0.000000][Loss: obj 1.52 || cls 2.27 || bbox 5.33 || total 9.11 || size 480 || time: 0.86]
+[Epoch 1/1][Iter 22/71][lr 0.000000][Loss: obj 0.98 || cls 1.66 || bbox 4.29 || total 6.93 || size 320 || time: 1.27]
+[Epoch 1/1][Iter 24/71][lr 0.000000][Loss: obj 1.26 || cls 1.54 || bbox 4.12 || total 6.93 || size 384 || time: 1.19]
+[Epoch 1/1][Iter 26/71][lr 0.000000][Loss: obj 0.84 || cls 1.81 || bbox 5.22 || total 7.87 || size 320 || time: 0.86]
+[Epoch 1/1][Iter 28/71][lr 0.000000][Loss: obj 1.47 || cls 1.60 || bbox 3.85 || total 6.92 || size 384 || time: 1.85]
+[Epoch 1/1][Iter 30/71][lr 0.000000][Loss: obj 1.49 || cls 2.19 || bbox 5.31 || total 8.99 || size 384 || time: 0.20]
+[Epoch 1/1][Iter 32/71][lr 0.000000][Loss: obj 1.52 || cls 2.24 || bbox 5.20 || total 8.96 || size 416 || time: 2.50]
+[Epoch 1/1][Iter 34/71][lr 0.000000][Loss: obj 1.56 || cls 2.01 || bbox 3.92 || total 7.49 || size 416 || time: 0.77]
+[Epoch 1/1][Iter 36/71][lr 0.000000][Loss: obj 1.99 || cls 1.96 || bbox 3.96 || total 7.91 || size 544 || time: 1.59]
+[Epoch 1/1][Iter 38/71][lr 0.000000][Loss: obj 1.80 || cls 1.88 || bbox 5.80 || total 9.48 || size 512 || time: 0.73]
+[Epoch 1/1][Iter 40/71][lr 0.000000][Loss: obj 1.91 || cls 1.95 || bbox 4.92 || total 8.77 || size 480 || time: 1.35]
+[Epoch 1/1][Iter 42/71][lr 0.000000][Loss: obj 1.30 || cls 2.12 || bbox 6.88 || total 10.29 || size 352 || time: 0.21]
+[Epoch 1/1][Iter 44/71][lr 0.000000][Loss: obj 1.41 || cls 2.00 || bbox 5.16 || total 8.57 || size 480 || time: 1.31]
+[Epoch 1/1][Iter 46/71][lr 0.000000][Loss: obj 1.40 || cls 1.84 || bbox 4.23 || total 7.48 || size 384 || time: 1.31]
+[Epoch 1/1][Iter 48/71][lr 0.000000][Loss: obj 2.49 || cls 2.26 || bbox 4.35 || total 9.09 || size 576 || time: 0.20]
+[Epoch 1/1][Iter 50/71][lr 0.000000][Loss: obj 1.27 || cls 2.12 || bbox 5.12 || total 8.51 || size 320 || time: 1.30]
+[Epoch 1/1][Iter 52/71][lr 0.000000][Loss: obj 1.54 || cls 2.57 || bbox 6.02 || total 10.13 || size 352 || time: 1.63]
+[Epoch 1/1][Iter 54/71][lr 0.000000][Loss: obj 2.18 || cls 1.73 || bbox 4.55 || total 8.46 || size 576 || time: 0.19]
+[Epoch 1/1][Iter 56/71][lr 0.000000][Loss: obj 1.52 || cls 1.70 || bbox 4.67 || total 7.88 || size 544 || time: 1.67]
+[Epoch 1/1][Iter 58/71][lr 0.000000][Loss: obj 1.72 || cls 1.77 || bbox 4.14 || total 7.63 || size 448 || time: 2.25]
+[Epoch 1/1][Iter 60/71][lr 0.000000][Loss: obj 1.77 || cls 1.93 || bbox 4.57 || total 8.26 || size 576 || time: 0.24]
+[Epoch 1/1][Iter 62/71][lr 0.000000][Loss: obj 1.61 || cls 1.83 || bbox 4.28 || total 7.72 || size 416 || time: 0.89]
+[Epoch 1/1][Iter 64/71][lr 0.000000][Loss: obj 2.18 || cls 2.31 || bbox 4.56 || total 9.06 || size 608 || time: 3.07]
+[Epoch 1/1][Iter 66/71][lr 0.000000][Loss: obj 1.71 || cls 1.92 || bbox 4.40 || total 8.03 || size 544 || time: 0.34]
+[Epoch 1/1][Iter 68/71][lr 0.000000][Loss: obj 2.03 || cls 1.91 || bbox 4.51 || total 8.45 || size 544 || time: 0.29]
+[Epoch 1/1][Iter 70/71][lr 0.000000][Loss: obj 1.97 || cls 2.09 || bbox 5.07 || total 9.13 || size 544 || time: 0.92]
+im_detect: 1/120 0.070s
+Evaluating detections
+Custom metric? Yes
+AP for milk-box = 0.0000
+AP for bottle = 0.0325
+AP for grass = 0.0004
+AP for plastic-bag = 0.0310
+AP for ball = 0.0000
+AP for leaf = 0.0600
+AP for plastic-garbage = 0.0000
+AP for branch = 0.0000
+Mean AP = 0.0155
+Mean AP:  0.015490792988571951
+Saving state, epoch: 1
