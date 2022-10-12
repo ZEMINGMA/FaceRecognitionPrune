@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>000869.jpg</filename>
+	<path>/home/zbr/VOCdevkit/VOC2007/JPEGImages/000869.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plastic-bag</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>49</xmin>
+			<ymin>137</ymin>
+			<xmax>77</xmax>
+			<ymax>187</ymax>
+		</bndbox>
+	</object>
+</annotation>

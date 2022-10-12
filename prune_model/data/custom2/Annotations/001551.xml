@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>001551.jpg</filename>
+	<path>/home/zbr/VOCdevkit/VOC2007/JPEGImages/001551.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>branch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>338</ymin>
+			<xmax>151</xmax>
+			<ymax>386</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>001597.jpg</filename>
+	<path>/home/zbr/VOCdevkit/VOC2007/JPEGImages/001597.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>141</ymin>
+			<xmax>379</xmax>
+			<ymax>328</ymax>
+		</bndbox>
+	</object>
+</annotation>
